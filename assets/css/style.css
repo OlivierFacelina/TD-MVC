@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    /* overflow: hidden; */
+    background-color: #333;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    z-index: 1
+}
+
+.container {
+    margin-top: 10vh;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.add-student {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.card {
+    margin-top: 15vh;
+}
+
+.card-part-content input {
+    width: 25vw;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        padding: 10px;
+    }
+}
